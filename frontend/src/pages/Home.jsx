@@ -25,7 +25,7 @@ const Home = () => {
     <>
       <section className="w-full ml-0 m-0 h-fit px-5 pt-20 lg:pl-[320px] flex flex-col min-h-screen py-4 justify-center">
         <div>
-          <p className="text-[#DECCBE] font-bold text-xl mb-8">
+          <p className="text-[#4fd1c5] font-bold text-xl mb-8">
             Transparency Leads to Your Victory
           </p>
           <h1
@@ -34,7 +34,7 @@ const Home = () => {
             Transparent Auctions
           </h1>
           <h1
-            className={`text-[#d6482b] text-2xl font-bold mb-2 min-[480px]:text-4xl md:text-6xl xl:text-7xl 2xl:text-8xl`}
+            className={`text-[#38b2ac] text-2xl font-bold mb-2 min-[480px]:text-4xl md:text-6xl xl:text-7xl 2xl:text-8xl`}
           >
             Be The Winner
           </h1>
@@ -43,13 +43,13 @@ const Home = () => {
               <>
                 <Link
                   to="/sign-up"
-                  className="bg-[#d6482b] font-semibold hover:bg-[#b8381e] rounded-md px-8 flex items-center py-2 text-white  transition-all duration-300"
+                  className="bg-[#38b2ac] font-semibold hover:bg-[#4fd1c5] rounded-md px-8 flex items-center py-2 text-white  transition-all duration-300"
                 >
                   Sign Up
                 </Link>
                 <Link
                   to={"/login"}
-                  className="text-[#DECCBE] bg-transparent border-2 border-[#DECCBE] hover:bg-[#fff3fd] hover:text-[#fdba88] font-bold text-xl  rounded-md px-8 flex items-center py-2 transition-all duration-300"
+                  className="text-[#DECCBE] bg-transparent border-2 border-[#DECCBE] hover:bg-[#4fd1c5] hover:text-[#fdba88] font-bold text-xl  rounded-md px-8 flex items-center py-2 transition-all duration-300"
                 >
                   Login
                 </Link>

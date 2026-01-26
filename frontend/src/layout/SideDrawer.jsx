@@ -40,14 +40,14 @@ const SideDrawer = () => {
         <div className="relative">
           <Link to={"/"}>
             <h4 className="text-2xl font-semibold mb-4">
-              Bid<span className="text-[#D6482b]">Sphere</span>
+              Bid<span className="text-[#38b2ac]">Sphere</span>
             </h4>
           </Link>
           <ul className="flex flex-col gap-3">
             <li>
               <Link
                 to={"/auctions"}
-                className="flex text-xl font-semibold gap-2 items-center hover:text-[#D6482b] hover:transition-all hover:duration-150"
+                className="flex text-xl font-semibold gap-2 items-center hover:text-[#9ae6e4] hover:transition-all hover:duration-150"
               >
                 <RiAuctionFill /> Auctions
               </Link>
@@ -55,7 +55,7 @@ const SideDrawer = () => {
             <li>
               <Link
                 to={"/leaderboard"}
-                className="flex text-xl font-semibold gap-2 items-center hover:text-[#D6482b] hover:transition-all hover:duration-150"
+                className="flex text-xl font-semibold gap-2 items-center hover:text-[#9ae6e4] hover:transition-all hover:duration-150"
               >
                 <MdLeaderboard /> Leaderboard
               </Link>
@@ -65,7 +65,7 @@ const SideDrawer = () => {
                 <li>
                   <Link
                     to={"/submit-commission"}
-                    className="flex text-xl font-semibold gap-2 items-center hover:text-[#D6482b] hover:transition-all hover:duration-150"
+                    className="flex text-xl font-semibold gap-2 items-center hover:text-[#9ae6e4] hover:transition-all hover:duration-150"
                   >
                     <FaFileInvoiceDollar /> Submit Commission
                   </Link>
@@ -73,7 +73,7 @@ const SideDrawer = () => {
                 <li>
                   <Link
                     to={"/create-auction"}
-                    className="flex text-xl font-semibold gap-2 items-center hover:text-[#D6482b] hover:transition-all hover:duration-150"
+                    className="flex text-xl font-semibold gap-2 items-center hover:text-[#9ae6e4] hover:transition-all hover:duration-150"
                   >
                     <IoIosCreate /> Create Auction
                   </Link>
@@ -81,7 +81,7 @@ const SideDrawer = () => {
                 <li>
                   <Link
                     to={"/view-my-auctions"}
-                    className="flex text-xl font-semibold gap-2 items-center hover:text-[#D6482b] hover:transition-all hover:duration-150"
+                    className="flex text-xl font-semibold gap-2 items-center hover:text-[#9ae6e4] hover:transition-all hover:duration-150"
                   >
                     <FaEye /> View My Auctions
                   </Link>
@@ -104,13 +104,13 @@ const SideDrawer = () => {
               <div className="my-4 flex gap-2">
                 <Link
                   to={"/sign-up"}
-                  className="bg-[#D6482B] font-semibold hover:bg-[#b8381e] text-xl py-1 px-4 rounded-md text-white"
+                  className="bg-[#38b2ac] font-semibold hover:bg-[#9ae6e4] text-xl py-1 px-4 rounded-md text-white"
                 >
                   Sign Up
                 </Link>
                 <Link
                   to={"/login"}
-                  className="text-[#DECCBE] bg-transparent border-[#DECCBE] border-2 hover:bg-[#fffefd] hover:text-[#fdba88] font-bold text-xl py-1 px-4 rounded-md"
+                  className="text-[#DECCBE] bg-transparent border-[#DECCBE] border-2 hover:bg-[#9ae6e4] hover:text-[#fdba88] font-bold text-xl py-1 px-4 rounded-md"
                 >
                   Login
                 </Link>
