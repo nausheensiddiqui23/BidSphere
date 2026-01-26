@@ -92,7 +92,7 @@ const SideDrawer = () => {
               <li>
                 <Link
                   to={"/dashboard"}
-                  className="flex text-xl font-semibold gap-2 items-center hover:text-[#D6482b] hover:transition-all hover:duration-150"
+                  className="flex text-xl font-semibold gap-2 items-center hover:text-[#9ae6e4] hover:transition-all hover:duration-150"
                 >
                   <MdDashboard /> Dashboard
                 </Link>
@@ -119,7 +119,7 @@ const SideDrawer = () => {
           ) : (
             <>
               <div className="my-4 flex gap-4 w-fit" onClick={handleLogout}>
-                <button className="bg-[#D6482B] font-semibold hover:bg-[#b8381e] text-xl py-1 px-4 rounded-md text-white">
+                <button className="bg-[#D6482B] font-semibold hover:bg-[#9ae6e4] text-xl py-1 px-4 rounded-md text-white">
                   Logout
                 </button>
               </div>
@@ -131,7 +131,7 @@ const SideDrawer = () => {
               <li>
                 <Link
                   to={"/me"}
-                  className="flex text-xl font-semibold gap-2 items-center hover:text-[#D6482b] hover:transition-all hover:duration-150"
+                  className="flex text-xl font-semibold gap-2 items-center hover:text-[#9ae6e4] hover:transition-all hover:duration-150"
                 >
                   <FaUserCircle /> Profile
                 </Link>
@@ -140,7 +140,7 @@ const SideDrawer = () => {
             <li>
               <Link
                 to={"/how-it-works-info"}
-                className="flex text-xl font-semibold gap-2 items-center hover:text-[#D6482b] hover:transition-all hover:duration-150"
+                className="flex text-xl font-semibold gap-2 items-center hover:text-[#9ae6e4] hover:transition-all hover:duration-150"
               >
                 <SiGooglesearchconsole /> How it works
               </Link>
@@ -148,7 +148,7 @@ const SideDrawer = () => {
             <li>
               <Link
                 to={"/about"}
-                className="flex text-xl font-semibold gap-2 items-center hover:text-[#D6482b] hover:transition-all hover:duration-150"
+                className="flex text-xl font-semibold gap-2 items-center hover:text-[#9ae6e4] hover:transition-all hover:duration-150"
               >
                 <BsFillInfoSquareFill /> About Us
               </Link>
@@ -177,7 +177,7 @@ const SideDrawer = () => {
           </div>
           <Link
             to={"/contact"}
-            className="text-stone-500 font-semibold hover:text-[#d6482b] hover:transition-all hover:duration-150"
+            className="text-stone-500 font-semibold hover:text-[#9ae6e4] hover:transition-all hover:duration-150"
           >
             Contact Us
           </Link>
@@ -186,7 +186,7 @@ const SideDrawer = () => {
             Degined By{" "}
             <Link
               to={"/"}
-              className="font-semibold hover:text-[#d6482b] hover:transition-all hover:duration-150"
+              className="font-semibold hover:text-[#C71585] hover:transition-all hover:duration-150"
             >
               Nausheen Siddiqui
             </Link>
