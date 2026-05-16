@@ -59,10 +59,8 @@ const CreateAuction = () => {
   const { isAuthenticated, user } = useSelector((state) => state.user);
   const navigateTo = useNavigate();
   useEffect(() => {
-    if (!isAuthenticated || user.role !== "Auctioneer") {
-      navigateTo("/");
-    }
-  }, [isAuthenticated]);
+  // Auth disabled temporarily for local testing
+}, []);
 
   return (
     <article className="w-full ml-0 m-0 h-fit px-5 pt-20 lg:pl-[320px] flex flex-col">

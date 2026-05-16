@@ -19,11 +19,11 @@ const UserProfile = () => {
         ) : (
           <>
             <div className="bg-white mx-auto w-full h-auto px-2 flex flex-col gap-4 items-center py-4 justify-center rounded-md">
-              <img
-                src={user.profileImage?.url}
-                alt="/imageHolder.jpg"
-                className="w-36 h-36 rounded-full"
-              />
+             <img
+  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330"
+  alt="Profile"
+  className="w-32 h-32 rounded-full object-cover"
+/>
 
               <div className="mb-6 w-full">
                 <h3 className="text-xl font-semibold mb-4">Personal Details</h3>
