@@ -62,7 +62,7 @@ const CardTwo = ({ imgSrc, title, startingBid, startTime, endTime, id }) => {
           className="w-full aspect-[4/3] m-auto md:p-12"
         />
         <div className="px-2 pt-4 pb-2">
-          <h5 className="font-semibold text-[18px] group-hover:text-[#d6482b] mb-2">
+          <h5 className="font-semibold text-[18px] group-hover:text-[#21a9cb] mb-2">
             {title}
           </h5>
           {startingBid && (
@@ -133,7 +133,7 @@ const Drawer = ({ setOpenDrawer, openDrawer, id }) => {
     >
       <div className="bg-white h-fit transition-all duration-300 w-full">
         <div className="w-full px-5 py-8 sm:max-w-[640px] sm:m-auto">
-          <h3 className="text-[#D6482B]  text-3xl font-semibold text-center mb-1">
+          <h3 className="text-[#21a9cb]  text-3xl font-semibold text-center mb-1">
             Republish Auction
           </h3>
           <p className="text-stone-600">

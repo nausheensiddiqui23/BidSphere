@@ -4,12 +4,19 @@ import { toast } from "react-toastify";
 
 const userSlice = createSlice({
   name: "user",
-  initialState: {
-    loading: false,
-    isAuthenticated: false,
-    user: {},
-    leaderboard: [],
+ initialState: {
+  loading: false,
+  isAuthenticated: true,
+  user: {
+    role: "Super Admin",
+    userName: "Nausheen",
+    email: "nausheen@example.com",
+    profileImage: {
+      url: "https://via.placeholder.com/150"
+    }
   },
+  leaderboard: [],
+},
   reducers: {
     registerRequest(state, action) {
       state.loading = true;

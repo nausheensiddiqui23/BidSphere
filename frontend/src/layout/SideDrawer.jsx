@@ -28,7 +28,7 @@ const SideDrawer = () => {
     <>
       <div
         onClick={() => setShow(!show)}
-        className="fixed right-5 top-5 bg-[#D6482B] text-white text-3xl p-2 rounded-md hover:bg-[#b8381e] lg:hidden"
+        className="fixed right-5 top-5 bg-[#21a9cb] text-white text-3xl p-2 rounded-md hover:bg-[#b8381e] lg:hidden"
       >
         <GiHamburgerMenu />
       </div>
@@ -119,13 +119,13 @@ const SideDrawer = () => {
           ) : (
             <>
               <div className="my-4 flex gap-4 w-fit" onClick={handleLogout}>
-                <button className="bg-[#D6482B] font-semibold hover:bg-[#9ae6e4] text-xl py-1 px-4 rounded-md text-white">
+                <button className="bg-[#21a9cb] font-semibold hover:bg-[#9ae6e4] text-xl py-1 px-4 rounded-md text-white">
                   Logout
                 </button>
               </div>
             </>
           )}
-          <hr className="mb-4 border-t-[#d6482b]" />
+          <hr className="mb-4 border-t-[#21a9cb]" />
           <ul className="flex flex-col gap-3">
             {isAuthenticated && (
               <li>
@@ -183,14 +183,17 @@ const SideDrawer = () => {
           </Link>
           <p className="text-stone-500">&copy; BidSphere, LLC.</p>
           <p className="text-stone-500">
-            Degined By{" "}
-            <Link
-              to={"/"}
-              className="font-semibold hover:text-[#C71585] hover:transition-all hover:duration-150"
-            >
-              Nausheen Siddiqui
-            </Link>
-          </p>
+  Designed By{" "}
+  <Link
+    to={"/"}
+    className="font-semibold hover:text-[#C71585] hover:transition-all hover:duration-150"
+  >
+    Nausheen Siddiqui <br />
+    Hrishabh Aggarwal <br />
+    Anshita Chaudhary <br />
+    Saurabh Meena
+  </Link>
+</p>
         </div>
       </div>
     </>

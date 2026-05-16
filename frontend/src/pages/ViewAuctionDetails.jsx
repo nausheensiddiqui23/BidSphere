@@ -30,14 +30,14 @@ const ViewAuctionDetails = () => {
         <div className="text-[16px] flex flex-wrap gap-2 items-center">
           <Link
             to="/"
-            className="font-semibold transition-all duration-300 hover:text-[#D6482B]"
+            className="font-semibold transition-all duration-300 hover:text-[#21a9cb]"
           >
             Home
           </Link>
           <FaGreaterThan className="text-stone-400" />
           <Link
             to={"/view-my-auctions"}
-            className="font-semibold transition-all duration-300 hover:text-[#D6482B]"
+            className="font-semibold transition-all duration-300 hover:text-[#21a9cb]"
           >
             My Auctions
           </Link>
@@ -62,13 +62,13 @@ const ViewAuctionDetails = () => {
                   </h3>
                   <p className="text-xl font-semibold">
                     Condition:{" "}
-                    <span className="text-[#D6482B]">
+                    <span className="text-[#21a9cb]">
                       {auctionDetail.condition}
                     </span>
                   </p>
                   <p className="text-xl font-semibold">
                     Minimum Bid:{" "}
-                    <span className="text-[#D6482B]">
+                    <span className="text-[#21a9cb]">
                       Rs.{auctionDetail.startingBid}
                     </span>
                   </p>

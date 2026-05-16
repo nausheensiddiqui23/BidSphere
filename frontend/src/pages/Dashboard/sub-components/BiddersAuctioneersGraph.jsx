@@ -47,7 +47,7 @@ const BiddersAuctioneersGraph = () => {
       {
         label: "Number of Bidders",
         data: totalBidders,
-        borderColor: "#D6482B",
+        borderColor: "#21a9cb",
         fill: false,
       },
       {

@@ -51,7 +51,7 @@ const Contact = () => {
             onSubmit={handleContactForm}
           >
             <h3
-              className={`text-[#D6482B] text-xl font-semibold mb-2 min-[480px]:text-xl md:text-2xl lg:text-3xl`}
+              className={`text-[#21a9cb] text-xl font-semibold mb-2 min-[480px]:text-xl md:text-2xl lg:text-3xl`}
             >
               Contact Us
             </h3>
@@ -61,7 +61,7 @@ const Contact = () => {
                 type="text"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                className="w-full mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#D6482B]"
+                className="w-full mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#21a9cb]"
                 required
               />
             </div>
@@ -71,7 +71,7 @@ const Contact = () => {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#D6482B]"
+                className="w-full mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#21a9cb]"
                 required
               />
             </div>
@@ -81,7 +81,7 @@ const Contact = () => {
                 type="number"
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
-                className="w-full mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#D6482B]"
+                className="w-full mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#21a9cb]"
                 required
               />
             </div>
@@ -91,7 +91,7 @@ const Contact = () => {
                 type="text"
                 value={subject}
                 onChange={(e) => setSubject(e.target.value)}
-                className="w-full mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#D6482B]"
+                className="w-full mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#21a9cb]"
                 required
               />
             </div>
@@ -101,13 +101,13 @@ const Contact = () => {
                 rows={7}
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
-                className="w-full mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#D6482B]"
+                className="w-full mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#21a9cb]"
                 required
               />
             </div>
 
             <button
-              className="bg-[#d6482b] mx-auto font-semibold hover:bg-[#b8381e] text-xl transition-all duration-300 py-2 px-4 rounded-md text-white my-4"
+              className="bg-[#21a9cb] mx-auto font-semibold hover:bg-[#9ae6e4] text-xl transition-all duration-300 py-2 px-4 rounded-md text-white my-4"
               type="submit"
             >
               {loading ? "Sending Message..." : "Send Message"}

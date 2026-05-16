@@ -25,7 +25,7 @@ import UserProfile from "./pages/UserProfile";
 const App = () => {
   const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(fetchUser());
+    //dispatch(fetchUser());
     dispatch(getAllAuctionItems());
     dispatch(fetchLeaderboard());
   }, []);
